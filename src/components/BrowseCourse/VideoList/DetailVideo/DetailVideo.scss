@@ -1,0 +1,39 @@
+.detail-video-container {
+    .title {
+        display      : flex;
+        align-items  : center;
+        gap          : 10px;
+        position     : relative;
+        margin-bottom: 30px;
+
+        .icon-back {
+            display        : flex;
+            align-items    : center;
+            justify-content: center;
+        }
+
+        .title-back {
+            p {
+                font-weight: 600;
+                font-size  : 28px;
+                line-height: 35px;
+                color      : #1D242A;
+                margin     : 0;
+            }
+        }
+    }
+
+    .main-video {
+        display: flex;
+        gap    : 20px;
+
+        .main-right {
+            background     : rgba(237, 240, 245, 0.82);
+            border-bottom  : 1px solid #CED2DB;
+            backdrop-filter: blur(2.5px);
+            border-radius  : 15px 15px 0px 0px;
+            width          : 100%;
+            padding        : 20px 20px;
+        }
+    }
+}

@@ -1,0 +1,135 @@
+.overview-container {
+    .title-tabs-content {
+        font-weight: 600;
+        font-size  : 22px;
+        line-height: 28px;
+        color      : #1D242A;
+    }
+
+    .location {
+        font-weight  : 400;
+        font-size    : 16px;
+        line-height  : 22px;
+        color        : #1D242A;
+        margin-bottom: 20px;
+        width        : 628px;
+    }
+
+    .information {
+        margin-bottom: 20px;
+
+        .title-infor {
+            font-weight  : 500;
+            font-size    : 18px;
+            line-height  : 22px;
+            color        : #118FA6;
+            margin-bottom: 10px;
+        }
+
+        .inf-main {
+            display: flex;
+            gap    : 50px;
+
+            .inf-left {
+
+                .skill,
+                .student,
+                .language,
+                .captions {
+                    font-weight: 600;
+                    font-size  : 16px;
+                    line-height: 22px;
+                    color      : #1D242A;
+                    display    : flex;
+                    align-items: center;
+
+                    h4 {
+                        width : 93px;
+                        margin: 0;
+                    }
+
+                    span {
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .inf-right {
+
+                .lectures,
+                .video {
+                    font-weight: 600;
+                    font-size  : 16px;
+                    line-height: 22px;
+                    color      : #1D242A;
+                    display    : flex;
+                    align-items: center;
+
+                    h4 {
+                        width : 93px;
+                        margin: 0;
+                    }
+
+                    span {
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+
+    .features {
+        margin-bottom: 20px;
+
+        .title-features {
+            font-weight  : 500;
+            font-size    : 18px;
+            line-height  : 22px;
+            color        : #118FA6;
+            margin-bottom: 10px;
+        }
+
+        .content-features {
+            font-weight: 400;
+            font-size  : 16px;
+            line-height: 22px;
+            color      : #1D242A;
+        }
+    }
+
+    .description {
+        margin-bottom: 20px;
+
+        .title-description {
+            font-weight  : 500;
+            font-size    : 18px;
+            line-height  : 22px;
+            color        : #118FA6;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size  : 16px;
+            line-height: 22px;
+            color      : #1D242A;
+            width      : 800px;
+        }
+    }
+
+    .instructor {
+        .title-instructor {
+            font-weight  : 500;
+            font-size    : 18px;
+            line-height  : 22px;
+            color        : #118FA6;
+            margin-bottom: 10px;
+        }
+
+        .infor {
+            display    : flex;
+            align-items: center;
+            gap        : 10px;
+        }
+    }
+}

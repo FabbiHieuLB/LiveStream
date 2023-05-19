@@ -1,0 +1,14 @@
+.session-accordion-container {
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom  : 25px;
+    cursor         : pointer;
+
+    .title-accordion {
+        font-weight: 600;
+        font-size  : 18px;
+        line-height: 22px;
+        color      : #101C2D;
+        margin     : 0;
+    }
+}

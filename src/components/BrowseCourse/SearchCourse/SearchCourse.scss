@@ -1,0 +1,26 @@
+.search-container {
+    background     : #EDF0F5;
+    display        : flex;
+    width          : 738px;
+    justify-content: center;
+    align-items    : center;
+    padding        : 15px 20px;
+    gap            : 10px;
+    border-radius  : 15px;
+    margin-bottom  : 30px;
+
+    .search-icon {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+    }
+
+    .input-search {
+        width           : 668px;
+        border          : none;
+        background-color: #EDF0F5;
+        outline         : none;
+        order           : 0;
+
+    }
+}

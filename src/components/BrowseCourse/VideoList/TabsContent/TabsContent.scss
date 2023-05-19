@@ -1,0 +1,23 @@
+.tabs-container {
+    .tabs-label {
+        margin-bottom: 30px;
+
+        .btn-tabs {
+            font-weight: 400;
+            font-size  : 18px;
+            line-height: 23px;
+            color      : #475866;
+            border     : none;
+            background : transparent;
+            cursor     : pointer;
+            padding    : 0px 10px 5px 10px;
+
+            &.active {
+                color        : #118FA6;
+                border-bottom: 2px solid #118FA6;
+            }
+        }
+    }
+
+    .tabs-content {}
+}

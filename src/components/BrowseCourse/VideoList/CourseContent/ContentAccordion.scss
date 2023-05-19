@@ -1,0 +1,31 @@
+.content-accordion-container {
+    background   : #fff;
+    padding      : 12px;
+    margin-bottom: 20px;
+
+    .content-wrapper {
+        display: flex;
+        gap    : 10px;
+
+        .check {
+            padding-top: 4px;
+        }
+
+        .content-item {
+            span {
+                font-weight: 500;
+                font-size  : 16px;
+                line-height: 22px;
+                color      : #1D242A;
+
+            }
+
+            .time-video {
+                margin-top : 13px;
+                display    : flex;
+                align-items: center;
+                gap        : 13px;
+            }
+        }
+    }
+}
